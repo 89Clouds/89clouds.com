@@ -1,0 +1,82 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>{{ site.title }}</title>
+  <meta name="description" content="89 Clouds provides consultancy services on Big Data solutions">
+  <meta name="author" content="89 Clouds">
+
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/css/style.css">
+
+  <script src="{{ ASSET_PATH }}/js/libs/modernizr-2.5.2-respond-1.1.0.min.js"></script>
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '{{ site.JB.analytics.google.tracking_id }}']);
+    _gaq.push(['_setDomainName', '{{ site.JB.analytics.google.domain }}']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body>
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <!--
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            -->
+          </a>
+          <a class="brand" href="/">{{ site.brand }}</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <!--
+              <li><a href="#team">Team</a></li>
+              <li><a href="#about">About</a></li>
+              -->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      {{ content }}
+
+      <footer>
+        <p class="page-footer">&copy; 89 Clouds 2012</p>
+        <p class="page-footer">Company Name: 89 Clouds Limited | Registration No: 07941358</p>
+        <p class="page-footer">Reg. Address: Mansion House, Manchester Road, Altrincham, Cheshire, WA14 4RW</p>
+      </footer>
+
+    </div> <!-- /container -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{ ASSET_PATH }}/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+<script src="{{ ASSET_PATH }}/js/plugins.js"></script>
+<script src="{{ ASSET_PATH }}/js/script.js"></script>
+
+<script src="{{ ASSET_PATH }}/js/libs/bootstrap/tooltip.js"></script>
+
+</body>
+</html>

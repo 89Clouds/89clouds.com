@@ -1,0 +1,17 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Development: Pedro Figueiredo
+  Site: http://89clouds.com/
+  Twitter: @89Clouds, @pfig
+  Location: London, UK
+
+/* THANKS */
+  Names (& URL): Joana Saramago (http://joanasaramago.com/)
+                 Jonathan Verrecchia (http://verekia.com/)
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, Bootstrap
+  Software: SublimeText 2, Less, Acorn, Icons, ColorSnapper, Mac OS X

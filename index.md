@@ -1,45 +1,21 @@
 ---
 layout: page
-title: Hello World!
+title: Welcome
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+# Welcome
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+89 Clouds is a consultancy company operating from London; focusing on Big Data solutions.
 
-## Update Author Attributes
+Our expertise covers all the areas involved in managing and deriving value from large volumes of data: from log collection to delivering the relevant data to your BI tool.
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+We are firm supporters of the Apache Hadoop ecosystem, which has become the _de facto_ standard to process data at web scale.
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+Whether you're running your own infrastructure or using a cloud-based offering like Amazon's Elastic MapReduce, we will help you with
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+* setting up and configuring Hadoop,
+* automating the deployment process and workflow,
+* Native or Streaming MapReduce jobs,
+* Hive or Pig jobs,
+* tying it all together with your existing processes.
