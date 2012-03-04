@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Welcome
+active: home
 ---
 {% include JB/setup %}
 

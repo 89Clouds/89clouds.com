@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+active: contact
 ---
 {% include JB/setup %}
 
