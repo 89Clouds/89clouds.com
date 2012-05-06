@@ -110,8 +110,6 @@ JB :
     google :
         tracking_id : 'UA-29326338-1'
         domain : '89clouds.com'
-    getclicky :
-      site_id :
 
   # Settings for sharing helper.
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
