@@ -24,8 +24,15 @@ topbar:
     url : '/index.html'
     title : 'Home'
   -
+    url : '/services.html'
+    title : 'Services'
+#  -
+#    url : '/blog.html'
+#    title : 'Blog'
+  -
     url : '/contact.html'
     title : 'Contact'
+
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
