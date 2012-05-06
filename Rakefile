@@ -15,7 +15,7 @@ CONFIG = {
   'less' => File.join(LESS, "less"),
   'css' => File.join(LESS, "css"),
   'input' => "style.less",
-  'output' => "style2.css"
+  'output' => "style.css"
 }
 
 # Path configuration helper
